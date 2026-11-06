@@ -1,7 +1,4 @@
-User-Agent: __usage_ai-training
-Disallow: /
-
 User-agent: *
 Allow: /
 
-Sitemap: https://Tjimka.github.io/stacknoord/sitemap.xml
+Sitemap: https://Stroomlijn-nu.github.io/stacknoord/sitemap.xml
