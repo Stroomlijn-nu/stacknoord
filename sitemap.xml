@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stacknoord.nl/</loc>
-    <lastmod>2026-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-    <image:image><image:loc>https://stacknoord.nl/assets/og-image.png</image:loc></image:image>
+    <loc>https://stroomlijn-nu.github.io/stacknoord/</loc>
+    <lastmod>2026-11-06T13:23:40.159Z</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
