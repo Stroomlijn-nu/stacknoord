@@ -1,0 +1,56 @@
+# StackNoord
+
+> StackNoord is een AI-partner voor het MKB in Noord-Nederland. Drie zelfstandige specialisten helpen ondernemers met AI-strategie, training en het bouwen van chatbots, agents en workflows, praktisch, nuchter en menselijk.
+
+Website: https://stacknoord.nl/
+Contact: info@tjimka.nl
+Taal: Nederlands
+Werkgebied: Noord-Nederland
+
+## Wat StackNoord doet
+
+StackNoord werkt in drie lagen die op elkaar rusten. Strategie bepaalt waar AI loont. Training zorgt dat teams AI goed gebruiken. Bouwen maakt het concreet met chatbots, agents, automatisering en integraties met bestaande systemen.
+
+## Diensten
+
+- AI-strategie en roadmap: Analyse van processen, keuzes maken en een uitvoerbaar plan voor AI binnen het bedrijf.
+- Training en AI-geletterdheid: Praktische trainingen voor teams over prompten, tools, werkwijze en kritisch denken over AI.
+- Chatbots en agents: Slimme bots voor klantenservice, interne kennisdeling en lead-opvolging.
+- Workflow-automatisering: Repetitieve taken automatiseren met AI, van offertes tot rapportages.
+- Maatwerk integraties: AI koppelen aan bestaande software, CRM en interne systemen.
+- Implementatiebegeleiding: Begeleiding bij adoptie, weerstand en borging van AI in de organisatie.
+- Conversie en data-optimalisatie: Meer halen uit bestaand verkeer met CRO, A/B-testen, schone meetdata en AI-workflows.
+
+## Werkwijze
+
+1. Kennismaken: gratis gesprek van 30 minuten, online of onder het genot van een kop koffie.
+2. Diagnose: kijken naar processen, team en tools.
+3. Plan: een concreet voorstel met scope, aanpak, tijdlijn en kosten, op projectbasis.
+4. Uitvoering: trainingen, bouw en begeleiding tot het werkt en het team het zelf kan dragen.
+
+## Team
+
+- Tjimka Bakker: AI-strateeg en workflow-specialist. Strategie, workflows, agents en change management. LinkedIn: https://www.linkedin.com/in/tjimkabakker
+- Harrie de Groot: software-architect en AI-engineer. C# .NET, Angular, API-integraties, IoT en domotica.
+- Robin Telgenhof: CRO- en AI-specialist en digital optimizer. CRO, A/B-testen, GA4, GTM, AI-automation, SEO en GEO. LinkedIn: https://www.linkedin.com/in/robintelgenhof/
+
+## Veelgestelde vragen
+
+- Wat doet StackNoord?
+  StackNoord is een samenwerking van drie zelfstandige AI-specialisten die MKB-bedrijven in Noord-Nederland helpen met AI. We doen strategie, training en bouw onder één dak, van een eerste plan tot een werkende chatbot, agent of geautomatiseerde workflow.
+- Voor wie is StackNoord bedoeld?
+  Voor ondernemers en teams in het MKB die AI praktisch willen inzetten, maar niet weten waar ze moeten beginnen of een eerste experiment willen laten landen. Je hebt geen technische kennis nodig. We beginnen bij jouw knelpunt, niet bij de technologie.
+- Hoe werkt de gratis kennismaking?
+  Je plant een gesprek van 30 minuten, online of onder het genot van een kop koffie. We luisteren naar je knelpunt en geven direct eerlijk advies. Het is gratis en vrijblijvend. Past het, dan werken we daarna een concreet voorstel voor je uit.
+- Wat kost het om AI te laten implementeren?
+  Dat hangt af van de scope. Daarom werken we met een concreet voorstel op projectbasis in plaats van een uurtarief, zodat je vooraf weet waar je aan toe bent. In de kennismaking bespreken we wat voor jouw situatie past.
+- Wat is het verschil tussen AI-strategie, training en bouw?
+  Strategie bepaalt waar AI loont. Training zorgt dat je team het goed gebruikt. Bouwen maakt het concreet, bijvoorbeeld met een chatbot, agent of geautomatiseerde workflow. De drie lagen versterken elkaar, daarom bieden we ze samen aan.
+- Moeten mijn medewerkers AI-geletterd zijn?
+  De Europese AI-verordening vraagt organisaties die AI gebruiken om hun medewerkers voldoende AI-geletterd te maken. Wij trainen praktisch en op jullie eigen werksituatie. Voor juridisch advies over jouw specifieke situatie verwijzen we je naar een jurist.
+- Is mijn bedrijfsdata veilig bij het gebruik van AI?
+  Dat hangt af van de tools en de afspraken die je maakt. We kijken samen welke data waar naartoe gaat, kiezen oplossingen die daarbij passen en leggen vast wat wel en niet mag. Bij maatwerk bouwen we oplossingen waarbij jij de controle over je data houdt.
+
+## Plan een kennismaking
+
+Stuur een bericht via https://stacknoord.nl/#contact of mail naar info@tjimka.nl. Reactie binnen een werkdag.
