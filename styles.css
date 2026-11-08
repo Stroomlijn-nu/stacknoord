@@ -147,15 +147,15 @@ h2{font-size:clamp(2rem,3.6vw,3.1rem);margin-bottom:1.2rem}
 .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
 .person{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:border-color .3s,transform .4s var(--ease);display:flex;flex-direction:column}
 .person:hover{border-color:rgba(196,151,58,.4);transform:translateY(-4px)}
-.photo{aspect-ratio:4/3;overflow:hidden;background:var(--surface-2);border-bottom:1px solid var(--line);position:relative}
+.photo{aspect-ratio:4/5;overflow:hidden;background:var(--surface-2);border-bottom:1px solid var(--line);position:relative}
 .photo .ini{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--font-d);font-weight:800;font-size:3rem;color:var(--accent);opacity:.4}
-.photo img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center 15%;filter:grayscale(25%) contrast(1.06) brightness(.88) sepia(12%);transition:filter .4s,transform .8s var(--ease)}
-.person:hover .photo img{filter:grayscale(5%) contrast(1.08) brightness(.95) sepia(5%);transform:scale(1.04)}
+.photo img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center top;filter:contrast(1.03) saturate(1.05);transition:filter .4s,transform .8s var(--ease)}
+.person:hover .photo img{filter:contrast(1.03) saturate(1.05);transform:scale(1.04)}
+.photo img.tone-warm,.person:hover .photo img.tone-warm{filter:contrast(1.03) saturate(1.2) brightness(1.04) sepia(.08);}
 .photo.ph{display:flex;align-items:center;justify-content:center}
 .photo.ph b{font-family:var(--font-d);font-weight:800;font-size:3rem;color:var(--accent);opacity:.4}
 .p-top{padding:1.5rem 1.7rem .8rem}
 .role{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.4rem}
-.role.blue{color:#6FA3C9}
 .p-top h3{font-size:1.3rem;letter-spacing:-.025em}
 .p-body{padding:0 1.7rem 1.7rem;display:flex;flex-direction:column;flex:1}
 .p-body p{font-size:.92rem;color:var(--muted);line-height:1.75;margin-bottom:1.1rem}
