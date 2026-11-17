@@ -1,0 +1,60 @@
+name: add-optimized-images
+on:
+  push:
+    branches: [fix/stacknoord-nl-live]
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode WebP photos and favicon, remove originals
+        run: |
+          python3 << 'PY'
+          import base64, pathlib, sys
+          root = pathlib.Path('.')
+          mapping = {
+              'tmp-images/tjimka.webp.b64': 'assets/tjimka.webp',
+              'tmp-images/harrie.webp.b64': 'assets/harrie.webp',
+              'tmp-images/robin.webp.b64': 'assets/robin.webp',
+              'tmp-images/favicon.ico.b64': 'favicon.ico',
+          }
+          missing = [src for src in mapping if not (root / src).is_file()]
+          if missing:
+              print('No payload files left, nothing to do.')
+              sys.exit(0)
+          for src, dest in mapping.items():
+              data = base64.b64decode((root / src).read_text())
+              dest_path = root / dest
+              dest_path.parent.mkdir(parents=True, exist_ok=True)
+              dest_path.write_bytes(data)
+              print(f'Wrote {dest} ({len(data)} bytes)')
+          pngs = [
+              'assets/Professioneel portret van Harrie-2.png',
+              'assets/Professioneel teamportret op neutrale achtergrond-1.png',
+              'assets/Professioneel teamportret van Robin-3.png',
+          ]
+          for png in pngs:
+              p = root / png
+              if p.exists():
+                  p.unlink()
+                  print(f'Removed {png}')
+          tmp = root / 'tmp-images'
+          if tmp.exists():
+              for f in tmp.iterdir():
+                  f.unlink()
+              tmp.rmdir()
+              print('Removed tmp-images/')
+          PY
+      - name: Commit optimized assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "Voeg gecomprimeerde teamfoto's (WebP) en favicon.ico toe en verwijder de zware PNG's."
+          git push
