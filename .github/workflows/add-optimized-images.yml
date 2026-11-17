@@ -9,7 +9,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Decode WebP photos and favicon, remove originals
+      - name: Decode any remaining image payloads
         run: |
           python3 << 'PY'
           import base64, pathlib, sys
@@ -20,11 +20,11 @@ jobs:
               'tmp-images/robin.webp.b64': 'assets/robin.webp',
               'tmp-images/favicon.ico.b64': 'favicon.ico',
           }
-          missing = [src for src in mapping if not (root / src).is_file()]
-          if missing:
+          found = {src: dest for src, dest in mapping.items() if (root / src).is_file()}
+          if not found:
               print('No payload files left, nothing to do.')
               sys.exit(0)
-          for src, dest in mapping.items():
+          for src, dest in found.items():
               data = base64.b64decode((root / src).read_text())
               dest_path = root / dest
               dest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -56,5 +56,5 @@ jobs:
             echo "Nothing to commit"
             exit 0
           fi
-          git commit -m "Voeg gecomprimeerde teamfoto's (WebP) en favicon.ico toe en verwijder de zware PNG's."
+          git commit -m "Herstel favicon.ico en ruim tijdelijke bestanden op."
           git push
