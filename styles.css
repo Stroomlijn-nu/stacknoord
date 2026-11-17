@@ -128,7 +128,7 @@ h2{font-size:clamp(2rem,3.6vw,3.1rem);margin-bottom:1.2rem}
 .step h3{font-size:1.25rem;margin-bottom:.6rem;letter-spacing:-.02em}
 .step p{color:var(--muted);font-size:.95rem;line-height:1.7}
 .bento{display:grid;grid-template-columns:repeat(6,1fr);gap:1.1rem}
-.card{grid-column:span 2;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:2rem 1.9rem;transition:border-color .3s,transform .4s var(--ease),background .3s;position:relative;overflow:hidden}
+.card{grid-column:span 2;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:2rem 1.9rem;transition:border-color .3s,transform .4s var(--ease),background .3s;position:relative;overflow:hidden;display:flex;flex-direction:column}
 .card.wide{grid-column:span 3}
 .card:hover{border-color:rgba(196,151,58,.4);transform:translateY(-4px);background:var(--surface-2)}
 .ico{width:40px;height:40px;border-radius:6px;background:rgba(196,151,58,.1);border:1px solid rgba(196,151,58,.25);display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;transition:background .3s}
@@ -169,6 +169,9 @@ h2{font-size:clamp(2rem,3.6vw,3.1rem);margin-bottom:1.2rem}
 .quote blockquote::before{content:'\201C';font-family:var(--font-d);font-weight:800;font-size:2.4rem;color:var(--accent);display:block;line-height:.7;margin-bottom:.6rem}
 .who{margin-top:auto;font-size:.84rem;color:var(--dim)}
 .who span{display:block;color:var(--muted);font-weight:600}
+.card .who{margin-top:1.15rem}
+.layer .by{font-size:.85rem;color:var(--dim);margin-top:.45rem;font-weight:600}
+.stack-note{margin-top:1.8rem;color:var(--muted);font-size:.98rem;line-height:1.75;max-width:46rem}
 .faq-wrap{max-width:860px}
 .faq details{border-top:1px solid var(--line)}
 .faq details:last-child{border-bottom:1px solid var(--line)}
