@@ -226,6 +226,7 @@ footer{padding:3.5rem 5vw 2.5rem;border-top:1px solid var(--line)}
 @keyframes scroll{to{transform:translateX(-50%)}}
 @media (max-width:1100px){
 .pain-grid,.quotes{grid-template-columns:repeat(2,1fr)}
+.pain-grid .pain:last-child:nth-child(odd){grid-column:1/-1}
 .team-grid{grid-template-columns:repeat(2,1fr)}
 .layer{grid-template-columns:4rem 1fr 1.3fr;}
 .layer .get{grid-column:2/4}
@@ -243,6 +244,7 @@ footer{padding:3.5rem 5vw 2.5rem;border-top:1px solid var(--line)}
 .steps::before,.steps::after{display:none}
 .bento{grid-template-columns:1fr 1fr}
 .card,.card.wide{grid-column:span 1}
+.bento .card:last-child:nth-child(odd){grid-column:1/-1}
 .why{grid-template-columns:1fr;gap:2.4rem}
 .why .sticky{position:static}
 .contact{grid-template-columns:1fr;gap:3rem}

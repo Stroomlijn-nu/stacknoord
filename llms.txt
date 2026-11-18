@@ -1,6 +1,6 @@
 # StackNoord
 
-> StackNoord is een AI-partner voor het MKB in Noord-Nederland. Drie zelfstandige specialisten helpen ondernemers met AI-strategie, training en het bouwen van chatbots, agents en workflows, praktisch, nuchter en menselijk.
+> StackNoord is een AI-partner voor het MKB in Noord-Nederland. Drie zelfstandige specialisten helpen ondernemers met AI-strategie en training, het bouwen van chatbots, agents, software en koppelingen, en het beter benutten van website en meetdata, praktisch, nuchter en menselijk.
 
 Website: https://stacknoord.nl/
 Contact: info@tjimka.nl
@@ -9,17 +9,19 @@ Werkgebied: Noord-Nederland
 
 ## Wat StackNoord doet
 
-StackNoord werkt in drie lagen die op elkaar rusten. Strategie bepaalt waar AI loont. Training zorgt dat teams AI goed gebruiken. Bouwen maakt het concreet met chatbots, agents, automatisering en integraties met bestaande systemen.
+StackNoord werkt in drie lagen die op elkaar rusten. Strategie bepaalt waar AI loont. Training zorgt dat teams AI goed gebruiken. Bouwen maakt het concreet met chatbots, agents, automatisering, software, apps en koppelingen met bestaande systemen. Ook verbeteren we conversie, meetdata en vindbaarheid in Google en AI-antwoorden.
 
 ## Diensten
 
-- AI-strategie en roadmap: Analyse van processen, keuzes maken en een uitvoerbaar plan voor AI binnen het bedrijf.
+- AI-strategie en roadmap: Analyse van processen, keuzes maken en een uitvoerbaar plan voor AI binnen het bedrijf, inclusief begeleiding bij de invoering.
 - Training en AI-geletterdheid: Praktische trainingen voor teams over prompten, tools, werkwijze en kritisch denken over AI.
-- Chatbots en agents: Slimme bots voor klantenservice, interne kennisdeling en lead-opvolging.
-- Workflow-automatisering: Repetitieve taken automatiseren met AI, van offertes tot rapportages.
-- Maatwerk integraties: AI koppelen aan bestaande software, CRM en interne systemen.
-- Implementatiebegeleiding: Begeleiding bij adoptie, weerstand en borging van AI in de organisatie.
-- Conversie en data-optimalisatie: Meer halen uit bestaand verkeer met CRO, A/B-testen, schone meetdata en AI-workflows.
+- Chatbots, agents en automatisering: Slimme bots voor klantenservice, interne kennisdeling en lead-opvolging, en automatisering van repetitieve taken, van offertes tot rapportages.
+- Software op maat: Maatwerksoftware van prototype tot schaalbaar systeem, met de data onder beheer van de klant.
+- Web- en mobiele apps: Web-applicaties, dashboards en apps voor iOS en Android, ontworpen en gebouwd rond de werkwijze van het bedrijf.
+- Koppelingen en integraties: Koppelen van bestaande software, CRM en interne systemen via API's, met volledige controle over de data.
+- Conversie-optimalisatie: Meer halen uit bestaand verkeer met gebruikersonderzoek en A/B-testen.
+- Webanalyse en tracking: Een betrouwbaar meetplan met GA4, server-side tagging en dashboards, voor een eenduidig beeld van de cijfers.
+- Vindbaarheid in Google en AI-zoekmachines: Technische SEO en GEO, zodat een bedrijf gevonden en genoemd wordt in Google en in AI-antwoorden.
 
 ## Werkwijze
 
@@ -30,14 +32,14 @@ StackNoord werkt in drie lagen die op elkaar rusten. Strategie bepaalt waar AI l
 
 ## Team
 
-- Tjimka Bakker: AI-strateeg en workflow-specialist. Strategie, workflows, agents en change management. LinkedIn: https://www.linkedin.com/in/tjimkabakker
-- Harrie de Groot: software-architect en AI-engineer. C# .NET, Angular, API-integraties, IoT en domotica.
+- Tjimka Bakker: AI-strateeg en workflow-specialist. Strategie, training, workflows, agents en change management. LinkedIn: https://www.linkedin.com/in/tjimkabakker
+- Harrie de Groot: software-architect en AI-engineer. Software op maat, web- en mobiele apps, C# .NET, Angular, API-integraties, IoT en domotica. LinkedIn: https://www.linkedin.com/in/harriedegroot/
 - Robin Telgenhof: CRO- en AI-specialist en digital optimizer. CRO, A/B-testen, GA4, GTM, AI-automation, SEO en GEO. LinkedIn: https://www.linkedin.com/in/robintelgenhof/
 
 ## Veelgestelde vragen
 
 - Wat doet StackNoord?
-  StackNoord is een samenwerking van drie zelfstandige AI-specialisten die MKB-bedrijven in Noord-Nederland helpen met AI. We doen strategie, training en bouw onder één dak, van een eerste plan tot een werkende chatbot, agent of geautomatiseerde workflow.
+  StackNoord is een samenwerking van drie zelfstandige AI-specialisten die MKB-bedrijven in Noord-Nederland helpen met AI. We doen strategie, training en bouw onder één dak, van een eerste plan tot een werkende chatbot, agent, app of koppeling. Ook helpen we je meer te halen uit je website en meetdata.
 - Voor wie is StackNoord bedoeld?
   Voor ondernemers en teams in het MKB die AI praktisch willen inzetten, maar niet weten waar ze moeten beginnen of een eerste experiment willen laten landen. Je hebt geen technische kennis nodig. We beginnen bij jouw knelpunt, niet bij de technologie.
 - Hoe werkt de gratis kennismaking?
@@ -45,7 +47,11 @@ StackNoord werkt in drie lagen die op elkaar rusten. Strategie bepaalt waar AI l
 - Wat kost het om AI te laten implementeren?
   Dat hangt af van de scope. Daarom werken we met een concreet voorstel op projectbasis in plaats van een uurtarief, zodat je vooraf weet waar je aan toe bent. In de kennismaking bespreken we wat voor jouw situatie past.
 - Wat is het verschil tussen AI-strategie, training en bouw?
-  Strategie bepaalt waar AI loont. Training zorgt dat je team het goed gebruikt. Bouwen maakt het concreet, bijvoorbeeld met een chatbot, agent of geautomatiseerde workflow. De drie lagen versterken elkaar, daarom bieden we ze samen aan.
+  Strategie bepaalt waar AI loont. Training zorgt dat je team het goed gebruikt. Bouwen maakt het concreet, bijvoorbeeld met een chatbot, agent, geautomatiseerde workflow, app of koppeling. De drie lagen versterken elkaar, daarom bieden we ze samen aan.
+- Bouwen jullie ook software en apps zonder AI?
+  Ja. Naast AI bouwen we software op maat, web-applicaties en apps voor iOS en Android, en we koppelen systemen via API's. Soms is een slimme koppeling of een eigen tool de beste oplossing, en dan zeggen we dat ook.
+- Kunnen jullie ook mijn website en meetdata verbeteren?
+  Ja. We zetten een betrouwbaar meetplan op met GA4 en server-side tagging, onderzoeken waar bezoekers afhaken en testen verbeteringen met A/B-tests. Ook maken we je site beter vindbaar in Google en in AI-antwoorden van ChatGPT en Perplexity.
 - Moeten mijn medewerkers AI-geletterd zijn?
   De Europese AI-verordening vraagt organisaties die AI gebruiken om hun medewerkers voldoende AI-geletterd te maken. Wij trainen praktisch en op jullie eigen werksituatie. Voor juridisch advies over jouw specifieke situatie verwijzen we je naar een jurist.
 - Is mijn bedrijfsdata veilig bij het gebruik van AI?
